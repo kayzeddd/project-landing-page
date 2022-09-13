@@ -19,7 +19,7 @@ body {
 
 .header div {
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 700;
     color: #F9FAF8;
 }
 
@@ -43,7 +43,7 @@ body {
 
 .sectwo .head {
     font-size:48px;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: -60px;
     margin-bottom: 10px;
     color: #F9FAF8
@@ -69,3 +69,82 @@ body {
     font-weight: bold;
     color:#F9FAF8;
 }
+
+.secthree {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secthree .head2 {
+    height:150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head2text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+
+.fourboxes {
+    display: flex;
+    column-gap: 40px;
+   
+}
+
+.block {
+    width: 220px;
+}
+
+
+.boximg {
+    height:220px;
+    border-radius: 25px;
+    border: 5px solid #3882F6;
+    display: flex;
+    justify-content:center;
+}
+
+img {
+    border-radius:20px;
+    height: 220px;
+    width: 210px;       
+}
+
+
+.block p {
+    text-align: center;
+    font-size: 22px;
+    color:#1F2937;
+    margin-top: 10px;
+}
+
+.midcolor {
+    background-color: #E5E7EB;
+}
+
+.secfour {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.secfour p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.secfour div {
+    align-self: flex-end;
+    font-size: 30px;
+    font-weight: bold;
+}    
