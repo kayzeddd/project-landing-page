@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0px;
+}
+
+.topcolor {
+    background-color: #1F2937;
+}
+.header {
+    height: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header div {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header ul {
+    margin-left: auto;
+    display: flex;
+    list-style-type: none;
+    column-gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.sectwo {
+    height:450px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display:flex;
+    align-items:center;
+    column-gap: 50px;
+}
+
+.sectwo .head {
+    font-size:48px;
+    font-weight: 900;
+    margin-top: -60px;
+    margin-bottom: 10px;
+    color: #F9FAF8
+}
+
+.sectwo .para{
+    margin-top: 10px;
+    font-size: 18px;
+    font-size: 18px;
+    color: #E5E7EB
+}
+.sectwo img {
+    height:300px;
+    width: 500px;
+}
+
+.sectwo button{
+    border: none;
+    border-radius:10px;
+    padding: 8px 25px;
+    background:#3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    color:#F9FAF8;
+}
