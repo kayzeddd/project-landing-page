@@ -21,9 +21,11 @@ body {
     font-size: 24px;
     font-weight: 700;
     color: #F9FAF8;
+    flex: none;
 }
 
 .header ul {
+    flex: none;
     margin-left: auto;
     display: flex;
     list-style-type: none;
@@ -39,6 +41,10 @@ body {
     display:flex;
     align-items:center;
     column-gap: 50px;
+}
+
+.minwidth {
+    min-width: 350px;
 }
 
 .sectwo .head {
@@ -138,6 +144,8 @@ img {
 }
 
 .secfour p {
+    max-height: 300px;
+    min-width: 550px;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
@@ -148,6 +156,7 @@ img {
     align-self: flex-end;
     font-size: 30px;
     font-weight: bold;
+    white-space:nowrap;
 }    
 
 .secfive {
@@ -155,11 +164,13 @@ img {
     align-items: center;
     justify-content: center;
     height: 400px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .box {
+    max-height:150px;
+    min-width: 800px;
     flex:auto;
     display:flex;
     column-gap: 150px;
@@ -173,6 +184,7 @@ img {
 .minibox {
     display:flex;
     flex-direction: column;
+    max-height: 80px;
 }
 
 .lineone{
@@ -187,6 +199,8 @@ img {
 
 
 .box button {
+    min-width: 200px;
+    flex: none;
     border: 3px solid #E5E7EB;
     border-radius: 10px;
     background-color: #3882F6;
